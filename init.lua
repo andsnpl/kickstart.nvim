@@ -117,6 +117,9 @@ require('lazy').setup({
   -- Set lualine as statusline
   'nvim-lualine/lualine.nvim',
 
+  -- Add indentation guides
+  'lukas-reineke/indent-blankline.nvim',
+
   -- "gc" to comment visual regions/lines
   'numToStr/Comment.nvim',
 
