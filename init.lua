@@ -82,11 +82,13 @@ require('lazy').setup({
       'williamboman/mason-lspconfig.nvim',
 
       -- Useful status updates for LSP
-      -- NOTE: `opts = {}` is the same as calling `require('fidget').setup({})`
-      { 'j-hui/fidget.nvim', opts = {} },
+      'j-hui/fidget.nvim',
 
       -- Additional lua configuration, makes nvim stuff amazing!
       'folke/neodev.nvim',
+
+      -- Integrate othr tools through LSP interfaces
+      'jose-elias-alvarez/null-ls.nvim',
     },
   },
 
@@ -168,6 +170,10 @@ require('lazy').setup({
       'leoluz/nvim-dap-go',
     },
   },
+
+  -- Notes and documentation plugins
+  'ixru/nvim-markdown',
+  'lervag/wiki.vim'
 }, {})
 
 -- [[ Setting options ]]
